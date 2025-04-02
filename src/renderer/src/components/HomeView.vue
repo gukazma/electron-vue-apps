@@ -9,6 +9,7 @@ export default {
 </script>
 
 <template>
-  <h2>HomeView</h2>
-  <button @click="goToAbout">Go to About</button>
+  <div>
+    <vc-viewer></vc-viewer>
+  </div>
 </template>

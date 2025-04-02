@@ -4,5 +4,11 @@ import App from './App.vue'
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import router from './router'
 import './assets/styles.scss'
-
-createApp(App).use(router).mount('#app')
+import VueCesium from 'vue-cesium'
+import 'vue-cesium/dist/index.css'
+const app = createApp(App)
+app.use(router)
+app.use(VueCesium, {
+      cesiumPath: 'https://unpkg.com/cesium@1.104.0/Build/Cesium/Cesium.js'
+    })
+app.mount('#app')
