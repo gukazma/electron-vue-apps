@@ -9,6 +9,6 @@ import 'vue-cesium/dist/index.css'
 const app = createApp(App)
 app.use(router)
 app.use(VueCesium, {
-      cesiumPath: 'https://unpkg.com/cesium@1.104.0/Build/Cesium/Cesium.js'
-    })
+    cesiumPath: '/Cesium/Cesium.js'
+  })
 app.mount('#app')
