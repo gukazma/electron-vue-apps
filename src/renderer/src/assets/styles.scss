@@ -90,5 +90,13 @@ $success: #7952b3;
 //
 
 body {
-  padding: 1.5rem;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+  padding: 0;
+}
+#app {
+  height: 100%;
 }
