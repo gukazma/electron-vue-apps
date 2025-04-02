@@ -15,7 +15,7 @@ export default {
       <li> <router-link to="/cesium">Cesium</router-link> </li>
       <li> Booststrap </li>
       <ul>
-        <li> <router-link to="/bootstrap/first">first</router-link> </li>
+        <li> <router-link to="/bootstrap/first">Containers</router-link> </li>
       </ul>
     </ul>
      
