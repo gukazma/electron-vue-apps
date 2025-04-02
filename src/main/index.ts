@@ -16,7 +16,6 @@ function createWindow(): void {
       sandbox: false
     }
   })
-
   mainWindow.on('ready-to-show', () => {
     mainWindow.show()
   })
