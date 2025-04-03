@@ -8,6 +8,7 @@
       <router-link to="/" class="nav-link" active-class="active" exact>Home</router-link>
       <router-link to="/cesium" class="nav-link" active-class="active">Cesium</router-link>
       <router-link to="/bootstrap" class="nav-link" active-class="active">Bootstrap</router-link>
+      <router-link to="/elementplus" class="nav-link" active-class="active">ElementPlus</router-link>
     </div>
 
     <!-- 路由内容区域 -->

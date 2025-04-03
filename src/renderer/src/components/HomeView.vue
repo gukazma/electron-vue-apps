@@ -13,10 +13,8 @@ export default {
      <h1>My apps list</h1>
      <ul>
       <li> <router-link to="/cesium">Cesium</router-link> </li>
-      <li> Booststrap </li>
-      <ul>
-        <li> <router-link to="/bootstrap">Bootstrap</router-link> </li>
-      </ul>
+      <li> <router-link to="/bootstrap">Bootstrap</router-link> </li>
+      <li> <router-link to="/elementplus">ElementPlus</router-link> </li>
     </ul>
   </div>
 </template>
