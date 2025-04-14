@@ -23,9 +23,11 @@
   "dependencies": {
     "@electron-toolkit/preload": "^3.0.1",
     "@electron-toolkit/utils": "^4.0.0",
+    "@element-plus/icons-vue": "^2.3.1",
     "@tailwindcss/vite": "^4.1.3",
     "bootstrap": "^5.3.3",
     "electron-updater": "^6.3.9",
+    "electron-vue-apps": "link:",
     "element-plus": "^2.9.7",
     "tailwindcss": "^4.1.3",
     "vue-cesium": "^3.2.9",
